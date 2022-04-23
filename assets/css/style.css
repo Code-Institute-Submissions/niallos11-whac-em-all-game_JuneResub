@@ -30,3 +30,6 @@ body {
     border: solid blue 5px;
     border-radius: 25px;
   }
+  .box {
+    height: 200px;
+    width: 200px;
