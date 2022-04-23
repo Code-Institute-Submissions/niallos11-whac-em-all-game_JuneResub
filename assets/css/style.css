@@ -2,3 +2,11 @@ body {
     font-family: 'Mansalva', cursive;
     font-family: 'Short Stack', cursive;
   }
+  h1 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    color: green
+  }
