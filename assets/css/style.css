@@ -10,3 +10,12 @@ body {
     justify-content: center;
     color: green
   }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    color: blueviolet
+  }
+  .grid-container>div {
+    text-align: center;
+    font-size: 26px;
+  }
