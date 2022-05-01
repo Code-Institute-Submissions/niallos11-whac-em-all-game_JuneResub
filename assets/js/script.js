@@ -1,3 +1,4 @@
+//// score  area //////////////////////////////////////
 let score = 0;
 let highscore = localStorage.getItem('highscore') || score;
 
@@ -10,3 +11,11 @@ document.getElementById('js-score').innerText = score;
 document.getElementById('js-highscore').innerText = highscore;
 }
 renderScores();
+
+///////////// timer //////////////////////////////////
+
+let currentTime = 10
+
+let timerId = null
+
+let countDownTimerId = setInterval(countDown, 1000)
