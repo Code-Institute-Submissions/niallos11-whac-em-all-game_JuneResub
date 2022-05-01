@@ -24,4 +24,5 @@ let countDownTimerId = setInterval(countDown, 1000)
 
 function countDown() {
     currentTime--
+    timeLeft.textContent = currentTime
 }
