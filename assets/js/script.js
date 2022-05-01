@@ -23,5 +23,5 @@ let countDownTimerId = setInterval(countDown, 1000)
 ///////////// timer function ////////////////////////////
 
 function countDown() {
-    currentTime
+    currentTime--
 }
