@@ -12,10 +12,16 @@ document.getElementById('js-highscore').innerText = highscore;
 }
 renderScores();
 
-///////////// timer //////////////////////////////////
+///////////// timer countdown //////////////////////////
 
 let currentTime = 10
 
 let timerId = null
 
 let countDownTimerId = setInterval(countDown, 1000)
+
+///////////// timer function ////////////////////////////
+
+function countDown() {
+    currentTime
+}
