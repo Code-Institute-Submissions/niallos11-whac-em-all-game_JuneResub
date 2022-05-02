@@ -17,6 +17,9 @@ function randomBox() {
     boxs.forEach(box => {
       box.classList.remove('target')
     })
+
+let randomBox = boxs[Math.floor(Math.random() * 9)]
+
 ///////////// timer countdown //////////////////////////
 
 let currentTime = 10
