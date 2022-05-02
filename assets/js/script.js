@@ -1,6 +1,7 @@
 //// score  area ////////////////////////////////////////
 let score = 0;
 let highscore = localStorage.getItem('highscore') || score;
+let whacPosition
 
 const boxs = document.querySelectorAll('.box')
 const target = document.querySelector('.target')
