@@ -14,8 +14,9 @@ renderScores();
 
 ///////////// Randdm Box function  ///////////////////// 
 function randomBox() {
-}
-
+    boxs.forEach(box => {
+      box.classList.remove('target')
+    })
 ///////////// timer countdown //////////////////////////
 
 let currentTime = 10
@@ -29,4 +30,5 @@ let countDownTimerId = setInterval(countDown, 1000)
 function countDown() {
     currentTime--
     timeLeft.textContent = currentTime
+}
 }
