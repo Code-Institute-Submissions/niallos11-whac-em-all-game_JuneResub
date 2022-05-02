@@ -20,8 +20,11 @@ function randomBox() {
 
 let randomBox = boxs[Math.floor(Math.random() * 9)]
     randomBox.classList.add('target')
-}
+    whacPosition = randomBox
+  }
+  boxs.forEach(box => {
 
+  })
 // function for speed to move Target ///////////////////
 function moveTarget() {
     timerId = setInterval(randomBox, 600)
