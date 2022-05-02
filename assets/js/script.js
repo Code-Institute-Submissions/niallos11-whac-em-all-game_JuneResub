@@ -24,6 +24,7 @@ let randomBox = boxs[Math.floor(Math.random() * 9)]
   }
   box.addEventListener('mousedown', () => {
     if (box.className == whacPosition) {
+    score ++;
     }
   })
     // event listener for mouse down clicks
