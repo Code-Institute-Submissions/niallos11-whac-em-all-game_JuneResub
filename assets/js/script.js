@@ -36,7 +36,7 @@ function randomBox() {
       if (box.className == whacPosition) {
         score ++;
         renderScores();
-        localStorage.setItem('score'); // save score to local Storage
+        localStorage.setItem('highscore','score'); // save score to local Storage
       }
     })
   })
