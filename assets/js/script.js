@@ -13,6 +13,13 @@ document.getElementById('js-highscore').innerText = highscore;
 }
 renderScores();
 
+// if logic to update and render score + highscore //////////
+updateHighscore = (score) => {
+  if (score > highscore) {
+    highscore = score;
+  }
+}
+
 ///////////// Randdm Box function  ///////////////////// 
 function randomBox() {
     boxs.forEach(box => {  // boxs array
