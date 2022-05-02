@@ -24,7 +24,7 @@ let randomBox = boxs[Math.floor(Math.random() * 9)]
 
 // function for speed to move Target ///////////////////
 function moveTarget() {
-    timerId = setInterval(randomBox, 500)
+    timerId = setInterval(randomBox, 600)
   }
   //
   moveTarget()
