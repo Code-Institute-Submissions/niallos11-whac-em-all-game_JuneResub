@@ -23,13 +23,13 @@ let randomBox = boxs[Math.floor(Math.random() * 9)]
     randomBox.classList.add('target')
     whacPosition = randomBox
   }
-  box.addEventListener('mousedown', () => {
-    if (box.className == whacPosition) {
-    score ++;
-    }
+  boxs.forEach(box => {
+    box.addEventListener('mousedown', () => {   // event listener for mouse down clicks
+      if (box.className == whacPosition) {
+        score ++;
+      }
+    })
   })
-    // event listener for mouse down clicks
-  
 // function for speed to move Target ///////////////////
 function moveTarget() {
     timerId = setInterval(randomBox, 600)
