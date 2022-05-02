@@ -31,17 +31,18 @@ function randomBox() {
 
   whacPosition = randomBox.classList  // Declare hit position = to the random box hit
 }
-  boxs.forEach(box => {
-    box.addEventListener('mousedown', () => {   // event listener for mouse down clicks
-      if (box.className == whacPosition) {
-        score ++;
-        updateHighscore(score);
-        renderScores();
-        localStorage.setItem('highscore','score'); // save score to local Storage
-        whacPosition = null
-      }
-    })
+ // Event Listener when clicked on box with target to add result with whacPosition
+boxs.forEach(box => {
+  box.addEventListener('mousedown', () => {
+    if (box.className == whacPosition) {
+      score ++;
+      updateHighscore(score);
+      renderScores();
+      localStorage.setItem('highscore', score); // save highscore to local storage
+      whacPosition = null
+    }
   })
+})
 // function for speed to move Target ///////////////////
 function moveTarget() {
     timerId = setInterval(randomBox, 600)
