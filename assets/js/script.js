@@ -1,4 +1,4 @@
-//// score  area //////////////////////////////////////
+//// score  area ////////////////////////////////////////
 let score = 0;
 let highscore = localStorage.getItem('highscore') || score;
 
@@ -11,6 +11,10 @@ document.getElementById('js-score').innerText = score;
 document.getElementById('js-highscore').innerText = highscore;
 }
 renderScores();
+
+///////////// Randdm Box function  ///////////////////// 
+function randomBox() {
+}
 
 ///////////// timer countdown //////////////////////////
 
