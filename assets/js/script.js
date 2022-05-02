@@ -22,10 +22,10 @@ let randomBox = boxs[Math.floor(Math.random() * 9)]
     randomBox.classList.add('target')
     whacPosition = randomBox
   }
-  boxs.forEach(box => {
-    box.addEventListener('mousedown')
+  box.addEventListener('mousedown', () => {
+    if (box.className == whacPosition) {
+    }
   })
-  
     // event listener for mouse down clicks
   
 // function for speed to move Target ///////////////////
