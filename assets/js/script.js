@@ -63,5 +63,7 @@ function countDown() {
     if (currentTime == 0) {
       clearInterval(countDownTimerId)
       clearInterval(timerId)
+      alert(' Game Over, You scored ' + score)
+      alert(' High Score score is ' + highscore)
 }
 }
