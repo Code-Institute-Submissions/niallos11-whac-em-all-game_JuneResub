@@ -35,8 +35,10 @@ function randomBox() {
     box.addEventListener('mousedown', () => {   // event listener for mouse down clicks
       if (box.className == whacPosition) {
         score ++;
+        updateHighscore(score);
         renderScores();
         localStorage.setItem('highscore','score'); // save score to local Storage
+        whacPosition = null
       }
     })
   })
