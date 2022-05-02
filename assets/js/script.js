@@ -60,4 +60,8 @@ let countDownTimerId = setInterval(countDown, 1000)
 function countDown() {
     currentTime--
     timeLeft.textContent = currentTime
+    if (currentTime == 0) {
+      clearInterval(countDownTimerId)
+      clearInterval(timerId)
+}
 }
