@@ -22,6 +22,10 @@ let randomBox = boxs[Math.floor(Math.random() * 9)]
     randomBox.classList.add('target')
 }
 randomBox()
+// function for speed to move Target ///////////////////
+function moveTarget() {
+    timerId = setInterval(randomBox, 1000)
+  }
 ///////////// timer countdown //////////////////////////
 
 let currentTime = 10
