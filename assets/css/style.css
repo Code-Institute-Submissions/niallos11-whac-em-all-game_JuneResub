@@ -43,6 +43,6 @@ body {
     width: 30px;
   }
   .target {
-    background-image: url("../images/mole-200px-modified.png");
+    background-image: url("../images/target.png");
     background-size: cover;
   }
