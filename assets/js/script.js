@@ -20,16 +20,17 @@ updateHighscore = (score) => {
   }
 }
 
-///////////// Randdm Box function  ///////////////////// 
+///////////// Random Box function  ///////////////////// 
 function randomBox() {
-    boxs.forEach(box => {  // boxs array
-      box.classList.remove('target')
-    })
+  boxs.forEach(box => {
+    box.classList.remove('target')
+  })
+  // Random location of target in boxes 
+  let randomBox = boxs[Math.floor(Math.random() * 9)]
+  randomBox.classList.add('target')
 
-let randomBox = boxs[Math.floor(Math.random() * 9)]
-    randomBox.classList.add('target')
-    whacPosition = randomBox
-  }
+  whacPosition = randomBox.classList  // Declare hit position = to the random box hit
+}
   boxs.forEach(box => {
     box.addEventListener('mousedown', () => {   // event listener for mouse down clicks
       if (box.className == whacPosition) {
