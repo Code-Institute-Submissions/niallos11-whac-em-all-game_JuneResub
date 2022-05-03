@@ -48,15 +48,17 @@ function moveTarget() {
     timerId = setInterval(randomBox, 600)
   }
   //
-  moveTarget()
+  
 
-///////////// timer countdown //////////////////////////
+// timer countdown 
 
-let currentTime = 10
+let timerId
 
-let countDownTimerId = setInterval(countDown, 1000)
+let currentTime
 
-///////////// timer function ////////////////////////////
+let countDownTimerId
+
+// timer function 
 
 function countDown() {
     currentTime--
@@ -67,8 +69,13 @@ function countDown() {
       alert(' Game Over, You scored ' + score)
       alert(' High Score score is ' + highscore)
 }
-// js Play refresh button  ////////////////////////////////////
+// js Play refresh button 
 }
 function jsButton(){
-    window.location.reload();
+  clearInterval(countDownTimerId) 
+  clearInterval(timerId)
+  currentTime = 10
+  moveTarget();
+  countDownTimerId = setInterval(countDown, 1000)
+ 
 } 
