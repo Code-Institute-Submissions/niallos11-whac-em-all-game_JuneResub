@@ -2,7 +2,12 @@
 
 body {
   font-family: 'Short Stack', Arial;
-  background-color: rgb(196, 197, 155);
+  background-image: url("../images/background_image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: center;
+  justify-content: center;
 }
 
 h1 {
