@@ -11,7 +11,9 @@ h1 {
   margin-right: auto;
   align-items: center;
   justify-content: center;
-  color: green
+  color: green;
+  font-size: xx-large;
+  font-weight:bolder;
 }
 
 .grid-container {
@@ -54,6 +56,7 @@ h1 {
   height: 30px;
   width: 30px;
   border-radius: 25px;
+  font-size: x-large;
 }
 
 .target {
@@ -67,6 +70,8 @@ h1 {
   margin-right: auto;
   align-items: center;
   justify-content: center;
+  font-size: x-large;
+  font-weight:bolder;
 }
 .js-button {
   display: flex;
@@ -80,4 +85,6 @@ h1 {
   margin-right: auto;
   align-items: center;
   justify-content: center;
-}
+  font-size: x-large;
+  font-weight:bolder;
+} 
