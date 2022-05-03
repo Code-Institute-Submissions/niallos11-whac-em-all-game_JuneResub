@@ -67,8 +67,8 @@ function countDown() {
       alert(' Game Over, You scored ' + score)
       alert(' High Score score is ' + highscore)
 }
-// Play refresh button  ////////////////////////////////////
+// js Play refresh button  ////////////////////////////////////
 }
-function refreshPage(){
+function jsButton(){
     window.location.reload();
 } 
