@@ -16,17 +16,6 @@ h1 {
   font-weight:bolder;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  color: blueviolet
-}
-
-.grid-container>div {
-  text-align: center;
-  font-size: 26px;
-}
-
 .game-grid-area {
   box-sizing: border-box;
   width: 310px;
