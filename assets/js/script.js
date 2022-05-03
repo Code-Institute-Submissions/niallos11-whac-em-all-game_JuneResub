@@ -74,7 +74,7 @@ function countDown() {
 function jsButton(){
   clearInterval(countDownTimerId) 
   clearInterval(timerId)
-  currentTime = 10
+  currentTime = 30
   moveTarget();
   countDownTimerId = setInterval(countDown, 1000)
  
