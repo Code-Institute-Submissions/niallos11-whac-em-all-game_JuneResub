@@ -46,6 +46,9 @@ Each time you hit a mole you get a point, the more times you hit the target the 
 
 Bugs
 
+- Score was not clearing when pressed play function - fixed 
+- The time-left timer jumps on screen when it starts - fixed
+
 ![image](https://user-images.githubusercontent.com/5288061/166667196-16c9a007-3bd1-4691-b66b-ceca835047da.png)
 - Updated body tag to correct position.
 
@@ -84,10 +87,13 @@ Largest function has 7 statements in it, while the median is 2.
 
 The most complex function has a cyclomatic complexity value of 2 while the median is 1.
 
+### LightHouse
+![image](https://user-images.githubusercontent.com/5288061/166820099-44154bbc-2bbb-4005-97bf-8c06ded5137e.png)
+
+
 
 ### Unfixed Bugs
-
-The time-left timer jumps on screen when it starts.
+No known bugs 
 
 ## Deployment
 
