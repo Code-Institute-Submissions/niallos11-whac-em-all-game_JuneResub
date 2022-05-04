@@ -147,8 +147,12 @@ You can break the credits section up into Content and Media, depending on what y
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- This image was taken from a Open Source site used as the target mole in game.
+https://www.clipartmax.com/download/m2i8i8d3i8m2A0Z5_mole-clipart-whack-a-mole-from-whack-a-mole/
+
+- The images used for the background page were taken from a Open Source site.
+- The hammer cursor icon was taken form - https://www.cursors-4u.com
+- The fav icon was taken from - https://www.favicon.cc
 
 
 
