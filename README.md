@@ -34,6 +34,14 @@ __The Game Area__
 ![image](https://user-images.githubusercontent.com/5288061/166828010-91f8ac16-65c5-4378-a5e0-972a6718f2f4.png)
 
 
+__Background Image__
+
+- The game features a fun and cartoonish background which ties into the look and feel of the game to give it color brightness.
+
+![image](https://user-images.githubusercontent.com/5288061/166832144-7cc2290d-7c8b-4f3c-bd59-458f0e323d0b.png)
+
+
+
 ### Features Left to Implement
 
 - LEvels Easy,Medium,Hard which would increase the speed of target.
