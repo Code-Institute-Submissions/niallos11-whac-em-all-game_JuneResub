@@ -88,9 +88,10 @@ Largest function has 7 statements in it, while the median is 2.
 The most complex function has a cyclomatic complexity value of 2 while the median is 1.
 
 ### LightHouse
+- Mobile
 ![image](https://user-images.githubusercontent.com/5288061/166820099-44154bbc-2bbb-4005-97bf-8c06ded5137e.png)
-
-
+- Desktop
+![image](https://user-images.githubusercontent.com/5288061/166824135-cca2836d-f96c-4909-b2eb-04a76ff62561.png)
 
 ### Unfixed Bugs
 No known bugs 
