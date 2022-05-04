@@ -1,7 +1,13 @@
 # Whac-Em-All
 
-This game is based on the popular arcade game whack a mole game / whack em all. This idea is to whac as many moles that pop in the main game area.
-Each time you hit a mole you get a point, the more times you hit the target the more points you can get. The game is fun and fast and displaying the highscore encourages the user to keep playing to beat this.The game demonstrate how to use JavaScript to make a fun and interactive game. The game is coulourful and colors are bright and playful.
+This game is based on the popular 1970/80s arcade game whack a mole game or somtimes called whack em all. 
+This idea is to whac as many moles that pop in the main game area.
+Each time you hit a mole you get a point, the more times you hit the target the more points you can get.
+The game is fun and fast and displaying the highscore encourages the user to keep playing to beat this.
+The game demonstrate how to use JavaScript to make a fun and interactive game. The game is coulourful and colors are bright and playful.
+
+![image](https://user-images.githubusercontent.com/5288061/166838764-9c2865bd-b76b-4df7-81d8-57227d938289.png)
+
 
 ## Features
 
