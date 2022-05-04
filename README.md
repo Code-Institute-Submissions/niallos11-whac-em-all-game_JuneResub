@@ -50,13 +50,12 @@ __Background Image__
 - Background Music
 
 ## Testing
-
     - I have tested page on Chrome,Firefox,Safari,Edge
     - I have tested page with Google lighthouse
     - I have tested with W3C HTML Validator
     - I have tested with W3C CSS Validator
     - I have tested with JSHint
-    - My 18 month toddler tested the game for me :) 
+    - My toddler tested the game for me :) 
 
 Bugs
 
@@ -129,30 +128,54 @@ This site was designed and planned out with wireframes before deployment.
 
 The live link can be found here - https://niallos11.github.io/whac-em-all-game/
 
-
-
 ## Credits
+- Code Institute 
+- My Mentor for helping & guiding me.
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
+## Research
 
-You can break the credits section up into Content and Media, depending on what you have included in your project.
+- I looked into simular games that existed and download apps on Android & iPad to test how they looked and played.
+eg: https://mole.onge.uk/ https://lagged.com/play/1537/ https://www.calculators.org/games/whack-em-all/ https://www.ducksters.com/games/whack_em_all.php
+
+![image](https://user-images.githubusercontent.com/5288061/166836929-2135e21d-4c62-4e70-8f18-176c6c068f24.png)
+
+![image](https://user-images.githubusercontent.com/5288061/166836956-0aa932d3-0295-4a9d-afb2-3ee2dc1b6329.png)
 
 
 ### Content
+- I needed to use many google searches to find how to do some things that were not covered in course content.
 
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
+https://medium.com/@divyamcm/whack-a-mole-game-using-html-css-and-javascript-84b108ec5c8e
+https://jsbeginners.com/whack-a-mole-game-javascript-project/
+https://learnersbucket.com/tutorials/js-projects/whack-a-mole-game-in-javascript/
+https://codepen.io/AlexsandroSA/pen/ZXGZag
+https://css-tricks.com/using-css-cursors/
+https://michael-karen.medium.com/how-to-save-high-scores-in-local-storage-7860baca9d68
+https://stackoverflow.com/questions/29370017/adding-a-high-score-to-local-storage
+https://stackoverflow.com/questions/64113076/javascript-high-score-update-regardless-of-whether-new-score-is-higher-or-not
 
+- I watched multiable YouTube video tutorials to help me figure out how to setup and structure game.
 
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+https://www.youtube.com/watch?v=toNFfAaWghU
+https://www.youtube.com/watch?v=rJU3tHLgb_c
+https://www.youtube.com/watch?v=UnrtgpQlAz4&t=2025s
+https://www.youtube.com/watch?v=D9ZfzXaCPuI&t=202s
+https://www.youtube.com/watch?v=he1Obo8bi_M&t=1136s
+https://www.youtube.com/watch?v=iYMx3Z5sTSI&t=1818s
+https://www.youtube.com/watch?v=b20YueeXwZg&t=877s
+https://www.youtube.com/watch?v=UX9HRC74cLA&t=283s
+https://www.youtube.com/watch?v=z0cKwzPF9cQ
+
+- The fonts were taken from google fonts - https://fonts.google.com/specimen/Short+Stack
 
 ### Media
-
-- This image was taken from a Open Source site used as the target mole in game.
-https://www.clipartmax.com/download/m2i8i8d3i8m2A0Z5_mole-clipart-whack-a-mole-from-whack-a-mole/
 
 - The images used for the background page were taken from a Open Source site.
 - The hammer cursor icon was taken form - https://www.cursors-4u.com
 - The fav icon was taken from - https://www.favicon.cc
+- This image was taken from a Open Source site used as the target mole in game.
+https://www.clipartmax.com/download/m2i8i8d3i8m2A0Z5_mole-clipart-whack-a-mole-from-whack-a-mole/
+
 
 
 
