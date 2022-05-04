@@ -1,4 +1,4 @@
-//// score  area ////////////////////////////////////////
+// score  area 
 let score = 0;
 let highscore = localStorage.getItem('highscore') || score;
 let whacPosition
@@ -13,14 +13,14 @@ document.getElementById('js-highscore').innerText = highscore;
 }
 renderScores();
 
-// if logic to update and render score + highscore //////////
+// if logic to update and render score + highscore //
 updateHighscore = (score) => {
   if (score > highscore) {
     highscore = score;
   }
 }
 
-///////////// Random Box function  ///////////////////// 
+// Random Box function  //
 function randomBox() {
   boxs.forEach(box => {
     box.classList.remove('target')
@@ -43,12 +43,10 @@ boxs.forEach(box => {
     }
   })
 })
-// function for speed to move Target ///////////////////
+// function for speed to move Target 
 function moveTarget() {
     timerId = setInterval(randomBox, 600)
   }
-  //
-  
 
 // timer countdown 
 
@@ -69,7 +67,7 @@ function countDown() {
       alert(' Game Over, You scored ' + score)
       alert(' High Score score is ' + highscore)
 }
-// js Play refresh button 
+// function to play game 
 }
 function jsButton(){
   clearInterval(countDownTimerId) 
