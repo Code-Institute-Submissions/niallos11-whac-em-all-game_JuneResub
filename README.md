@@ -5,28 +5,33 @@ Each time you hit a mole you get a point, the more times you hit the target the 
 
 ## Features
 
-- Heading - main heading clear and centered.
-- Scores areas - this has the score which is updated as you hit the mole
+__Whac-Em-All Heading__  - main heading clear and centered.
+- Featured at the top of the page, the Whac-Em-all heading is easy and clear to see for the user.
+- Upon viewing the page, the user will be able to see the name of the game.
+
+![image](https://user-images.githubusercontent.com/5288061/166824856-bdceaa39-325b-421c-ab8a-946c9dcb4498.png)
+
+__The Score Area__
+- Scores areas - this has the score which is updated as you hit the mole.
 - Highscore - This keeps track of your high score encouring you to keep playing to beat this score.
-- Time left - this diplays the 30sec timer to let you know when game is about to end.
+- The score area included score which increases as you click or mouse-over the mole that pops up from hole.
+- The high score which also increase as you score but will be saved to local Storage at end of game. 
+- When you click play button again it will show the highest score that has being achieved and clear the score to 0. 
+
+![image](https://user-images.githubusercontent.com/5288061/166824927-80341180-49fe-4dca-b84d-c38561dc4b78.png)
+
+__Time-Left__ - This diplays the 30sec timer to let you know when game is about to end.
+
+![image](https://user-images.githubusercontent.com/5288061/166825017-417883e4-18aa-452d-a348-dd9c1c0c8d9b.png)
 
 
-### Existing Features
+__The Game Area__
 
-- __Whac-Em-All Heading__
+  - This section will allow the user to play the Whac-Em-All game. The user will be able to easily see a mole pop up for the user to hit/whac with cursor / hammer. 
+  - The main goal of the game is to hit the mole as many time as you can within the limited time frame. 
+  - The user will also be able to see the highscore to beat. To start the game you click on the play button.
 
-  - Featured at the top of the page, the Whac-Em-all heading is easy and clear to see for the user.
-  - Upon viewing the page, the user will be able to see the name of the game.
-
-
-- __The Score Area__
-
-  - The score area included score which increases as you click or mouse-over the mole that pops up from hole.
-  - The high score which also increase as you score but will be saved to local Storage at end of game. So when you click play button again it will show the highest score that has being achieved.
-
-- __The Game Area__
-
-  - This section will allow the user to play the Whac-Em-All game. The user will be able to easily see a mole pop up for the user to hit/whac with cursor / hammer. The main goal of the game is to hit the mole as many time as you can within the limited time frame. The user will also be able to see the highscore to beat. To start the game you click on the play button.
+![image](https://user-images.githubusercontent.com/5288061/166828010-91f8ac16-65c5-4378-a5e0-972a6718f2f4.png)
 
 
 ### Features Left to Implement
@@ -38,11 +43,12 @@ Each time you hit a mole you get a point, the more times you hit the target the 
 
 ## Testing
 
-    I have tested page on Chrome,Firefox & Safari.
-    I have tested page with Google lighthouse
-    I have tested with W3C HTML Validator
-    I have tested with W3C CSS Validator
-    I have tested with JSHint
+    - I have tested page on Chrome,Firefox,Safari,Edge
+    - I have tested page with Google lighthouse
+    - I have tested with W3C HTML Validator
+    - I have tested with W3C CSS Validator
+    - I have tested with JSHint
+    - My 18 month toddler tested the game for me :) 
 
 Bugs
 
