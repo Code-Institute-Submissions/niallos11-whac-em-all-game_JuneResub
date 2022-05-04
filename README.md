@@ -46,7 +46,11 @@ Each time you hit a mole you get a point, the more times you hit the target the 
 
 Bugs
 
+![image](https://user-images.githubusercontent.com/5288061/166667196-16c9a007-3bd1-4691-b66b-ceca835047da.png)
+Updated body tag to correct position.
 
+![image](https://user-images.githubusercontent.com/5288061/166667278-a7409dd4-c7af-4672-a59f-7f2782c9af3d.png)
+Removed this line as it was un-needed.
 
 Lighthouse
 First test with lighthouse desktop show missing meta data updated this.
