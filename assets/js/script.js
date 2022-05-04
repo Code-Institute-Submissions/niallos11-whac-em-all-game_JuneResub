@@ -1,7 +1,7 @@
 // let varibles 
 let score = 0;
 let highscore = localStorage.getItem('highscore') || score;
-let whacPosition
+let whacPosition;
 
 //const variables 
 const boxs = document.querySelectorAll('.box')
@@ -13,7 +13,6 @@ renderScores = () => {
 document.getElementById('js-score').innerText = score;
 document.getElementById('js-highscore').innerText = highscore;
 }
-renderScores();
 
 // if logic to update and render score + highscore
 updateHighscore = (score) => {
@@ -39,7 +38,7 @@ boxs.forEach(box => {
       score ++;
       updateHighscore(score);
       renderScores();
-      localStorage.setItem('highscore', score); // save highscore to local storage
+      localStorage.setItem('highscore'); // save highscore to local storage
       whacPosition = null
     }
   })
@@ -74,4 +73,7 @@ function jsButton(){
   currentTime = 30
   moveTarget();
   countDownTimerId = setInterval(countDown, 1000)
+  score = 0
+  clearInterval(score);
+  renderScores();
 } 
