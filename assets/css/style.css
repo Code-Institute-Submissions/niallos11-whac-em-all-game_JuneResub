@@ -21,6 +21,14 @@ h1 {
   font-size: xx-large;
   font-weight:bolder;
 }
+span {
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: left;
+  text-align: center;
+  font-size: large;
+  font-weight:bolder;
+}
 /* the main game area with grid boxes */
 .game-grid-area {
   box-sizing: border-box;
@@ -42,17 +50,13 @@ h1 {
 }
 /* timer for game to end */
 .time-left {
-  display: inline-flex;
   margin-left: auto;
   margin-right: auto;
   justify-content: left;
   text-align: center;
   font-size: x-large;
   font-weight:bolder;
-  border: 4px;
-  height: 30px;
-  width: 30px;
-  border-radius: 25px;
+  color:green;
 }
 /*taget mole to hit for points */
 .target {
