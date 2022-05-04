@@ -47,10 +47,10 @@ Each time you hit a mole you get a point, the more times you hit the target the 
 Bugs
 
 ![image](https://user-images.githubusercontent.com/5288061/166667196-16c9a007-3bd1-4691-b66b-ceca835047da.png)
-Updated body tag to correct position.
+- Updated body tag to correct position.
 
 ![image](https://user-images.githubusercontent.com/5288061/166667278-a7409dd4-c7af-4672-a59f-7f2782c9af3d.png)
-Removed this line as it was un-needed.
+- Removed this line as it was un-needed.
 
 Lighthouse
 First test with lighthouse desktop show missing meta data updated this.
@@ -69,16 +69,21 @@ First test with lighthouse desktop show missing meta data updated this.
 
 
 - JavaScript
+- No errors, only warnings about semicolons at the end of lines which is optional using https://jshint.com/
+- No erros on console when testing or playing game.
+
+![image](https://user-images.githubusercontent.com/5288061/166667992-40cbf142-0f31-4390-a2be-2563336b9490.png)
 
 Metrics
 
-There are 10 functions in this file.
+There are 9 functions in this file.
 
 Function with the largest signature take 1 arguments, while the median is 0.
 
-Largest function has 7 statements in it, while the median is 1.5.
+Largest function has 7 statements in it, while the median is 2.
 
 The most complex function has a cyclomatic complexity value of 2 while the median is 1.
+
 
 ### Unfixed Bugs
 
