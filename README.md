@@ -50,7 +50,7 @@ __Background Image__
 
 ### Features Left to Implement
 
-- LEvels Easy,Medium,Hard which would increase the speed of target.
+- Levels Easy,Medium,Hard which would increase the speed of target.
 - Planned to have different targets pop up from holes.
 - Animate hammer when clicked on.
 - Background Music
@@ -180,7 +180,7 @@ https://www.youtube.com/watch?v=z0cKwzPF9cQ
 - The hammer cursor icon was taken form - https://www.cursors-4u.com
 - The fav icon was taken from - https://www.favicon.cc
 - This image was taken from a Open Source site used as the target mole in game.
-https://www.clipartmax.com/download/m2i8i8d3i8m2A0Z5_mole-clipart-whack-a-mole-from-whack-a-mole/
+- https://www.clipartmax.com/download/m2i8i8d3i8m2A0Z5_mole-clipart-whack-a-mole-from-whack-a-mole/
 - The images was edited to make transparent with https://www12.lunapic.com/editor/
 
 
