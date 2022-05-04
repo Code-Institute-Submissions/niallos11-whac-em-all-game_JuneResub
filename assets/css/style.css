@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
-
+/* main body */
 body {
   font-family: 'Short Stack', Arial;
   background-image: url("../images/background_image.png");
@@ -9,7 +9,7 @@ body {
   align-items: center;
   justify-content: center;
 }
-
+/* heading */
 h1 {
   display: flex;
   margin-left: auto;
@@ -20,7 +20,7 @@ h1 {
   font-size: xx-large;
   font-weight:bolder;
 }
-
+/* the main game area with grid boxes */
 .game-grid-area {
   box-sizing: border-box;
   width: 310px;
@@ -32,14 +32,14 @@ h1 {
   margin-right: auto;
   align-items: center;
 }
-
+/* boxes where the target will randomally pop up*/
 .box {
   height: 100px;
   width: 100px;
   background-image: url(../images/target-hole.png);
   background-size: cover;
 }
-
+/* timer for game to end */
 .time-left {
   display: inline-flex;
   margin-left: auto;
@@ -53,12 +53,12 @@ h1 {
   width: 30px;
   border-radius: 25px;
 }
-
+/*taget mole to hit for points */
 .target {
   background-image: url("../images/target.png");
   background-size: cover;
 }
-
+/* score & highscore area */
 .scores {
   display: grid;
   margin-left: auto;
@@ -68,6 +68,7 @@ h1 {
   font-size: x-large;
   font-weight:bolder;
 }
+/* button used to start game*/
 .js-button {
   display: flex;
   width: 100px;
