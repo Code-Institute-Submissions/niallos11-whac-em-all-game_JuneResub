@@ -13,15 +13,19 @@
 </head>
 
 <body>
+    <!-- header for Game-->
     <h1>Whac-Em-All</h1>
+     <!-- Score area -->
     <div class=scores>
         <div>Score:<span id="js-score"></span></div>
         <div>highScore: <span id="js-highscore"></span></div>
     </div>
     <br>
+    <!-- Timer countdown 30 sec -->
     <div>Time left:<span class="time-left"></span></div>
     <br>
     <br>
+    <!--Main game area using grid 3*3 boxes-->
     <div class="game-grid-area">
         <div class="box box1"></div>
         <div class="box box2"></div>
@@ -36,6 +40,7 @@
     <br>
     <br>
     <div>
+        <!-- js button to start the game -->
         <button class=js-button onclick="jsButton()">Play!</button>
     </div>
 
