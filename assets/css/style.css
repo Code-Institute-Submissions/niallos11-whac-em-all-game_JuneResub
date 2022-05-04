@@ -85,3 +85,7 @@ h1 {
   font-size: x-large;
   font-weight:bolder;
 } 
+/* Hammer cursor */
+* {
+  cursor: url(../images/Hammer.cur), auto;
+}
