@@ -175,6 +175,7 @@ https://www.youtube.com/watch?v=z0cKwzPF9cQ
 - The fav icon was taken from - https://www.favicon.cc
 - This image was taken from a Open Source site used as the target mole in game.
 https://www.clipartmax.com/download/m2i8i8d3i8m2A0Z5_mole-clipart-whack-a-mole-from-whack-a-mole/
+- The images was edited to make transparent with https://www12.lunapic.com/editor/
 
 
 
