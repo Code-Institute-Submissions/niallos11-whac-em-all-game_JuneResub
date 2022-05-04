@@ -36,10 +36,10 @@ __The Game Area__
 
 ### Features Left to Implement
 
-- Level in the game which could incluse easy,medium,hard and this would increase the speed of the mole popping up.
-- Planned to have different targets pop up from hole.
+- LEvels Easy,Medium,Hard which would increase the speed of target.
+- Planned to have different targets pop up from holes.
 - Animate hammer when clicked on.
-- Music
+- Background Music
 
 ## Testing
 
@@ -104,12 +104,23 @@ No known bugs
 
 ## Deployment
 
+### WireFrames
+
+This site was designed and planned out with wireframes before deployment. 
+
+![image](https://user-images.githubusercontent.com/5288061/166830378-9c9fcdff-7a85-47f7-8100-a1a42f96bd4b.png)
+
+![image](https://user-images.githubusercontent.com/5288061/166830749-230ab4d5-5c86-4600-8d81-192b53f5d07f.png)
+
+## Github
+
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
   - In the GitHub repository, navigate to the Settings tab
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 The live link can be found here - https://niallos11.github.io/whac-em-all-game/
+
 
 
 ## Credits
