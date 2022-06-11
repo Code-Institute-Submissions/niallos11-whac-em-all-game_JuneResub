@@ -38,7 +38,7 @@ boxs.forEach(box => {
       score ++;
       updateHighscore(score);
       renderScores();
-      localStorage.setItem('highscore'); // save highscore to local storage
+      localStorage.setItem('highscore',score); // save highscore to local storage
       whacPosition = null
     }
   })
@@ -70,7 +70,7 @@ function countDown() {
 function jsButton(){
   clearInterval(countDownTimerId) 
   clearInterval(timerId)
-  currentTime = 30
+  currentTime = 10
   moveTarget();
   countDownTimerId = setInterval(countDown, 1000)
   score = 0
