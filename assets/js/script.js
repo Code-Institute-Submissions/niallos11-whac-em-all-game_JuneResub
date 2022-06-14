@@ -64,6 +64,7 @@ function countDown() {
       clearInterval(timerId)
       alert(' Game Over, You scored ' + score)
       alert(' High Score score to beat is ' + highscore)
+      whacPosition = null
 }
 // function to play game 
 }
