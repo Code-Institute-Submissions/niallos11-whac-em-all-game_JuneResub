@@ -91,20 +91,13 @@ First test with lighthouse desktop show missing meta data updated this.
 
 
 - JavaScript
-- No errors, only warnings about semicolons at the end of lines which is optional using https://jshint.com/
-- No erros on console when testing or playing game.
+~~No errors, only warnings about semicolons at the end of lines which is optional using https://jshint.com/~~
+- added semi-colons
+- No errors on console when testing or playing game.
+- Has one warning for unused function which is being used and called by html code for button,but javascript only reading that file hence the warning.
 
-![image](https://user-images.githubusercontent.com/5288061/166667992-40cbf142-0f31-4390-a2be-2563336b9490.png)
+![image](https://user-images.githubusercontent.com/5288061/174500992-35ac8e39-f2b3-4308-96e7-68e14e83cc69.png)
 
-Metrics
-
-There are 9 functions in this file.
-
-Function with the largest signature take 1 arguments, while the median is 0.
-
-Largest function has 7 statements in it, while the median is 2.
-
-The most complex function has a cyclomatic complexity value of 2 while the median is 1.
 
 ### LightHouse
 - Mobile
