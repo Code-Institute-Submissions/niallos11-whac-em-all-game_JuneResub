@@ -113,7 +113,8 @@ The most complex function has a cyclomatic complexity value of 2 while the media
 ![image](https://user-images.githubusercontent.com/5288061/166824135-cca2836d-f96c-4909-b2eb-04a76ff62561.png)
 
 ### Unfixed Bugs
-Can still click on target at end of game - need to remove or lock target.
+~~Can still click on target at end of game - need to remove or lock target~~
+Bug was fixed
 
 ## Deployment
 
