@@ -94,6 +94,7 @@ First test with lighthouse desktop show missing meta data updated this.
 ~~No errors, only warnings about semicolons at the end of lines which is optional using https://jshint.com/~~
 - added semi-colons
 - No errors on console when testing or playing game.
+- Found a warning in console in Chrome browser when you reload the page - Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'.This is ChromeBrowerThird-party cookies and can be ignored or disabled in gihubpages or chrome browser settings.
 - Has one warning for unused function which is being used and called by html code for button,but javascript only reading that file hence the warning.
 
 ![image](https://user-images.githubusercontent.com/5288061/174500992-35ac8e39-f2b3-4308-96e7-68e14e83cc69.png)
