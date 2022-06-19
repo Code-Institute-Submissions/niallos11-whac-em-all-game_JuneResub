@@ -1,3 +1,4 @@
+/* jshint esversion: 6 */
 // let varibles 
 let score = 0;
 let highscore = localStorage.getItem('highscore') || score;
@@ -5,7 +6,6 @@ let whacPosition;
 
 //const variables 
 const boxs = document.querySelectorAll('.box');
-const target = document.querySelector('.target');
 const timeLeft = document.querySelector('.time-left');
 
 //Render Score
